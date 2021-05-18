@@ -1,7 +1,7 @@
 {
   "name": "clean-architecture",
   "version": "1.0.0",
-  "description": "",
+  "description": "An API using a clean architecture",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -10,8 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/gabrielcilico/node-clean-architecture.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "API",
+    "Typescript",
+    "NodeJS",
+    "Clean Architecture",
+    "TDD"
+  ],
+  "author": "Gabriel Cilico Leite",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gabrielcilico/node-clean-architecture/issues"
