@@ -21,6 +21,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "lint-staged": "^11.0.0",
     "standard": "^16.0.3",
     "ts-node-dev": "^1.1.6",
     "ts-standard": "^10.0.0",
