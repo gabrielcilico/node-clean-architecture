@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "*.js": ["standard"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gabrielcilico/node-clean-architecture.git"
@@ -21,6 +29,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "standard": "^16.0.3",
     "ts-node-dev": "^1.1.6",
