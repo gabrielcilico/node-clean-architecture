@@ -1,4 +1,4 @@
-import { CPFValidator } from './CPFValidator'
+import { CPFValidator } from '../CPFValidator'
 
 describe('cpf validation test', () => {
 

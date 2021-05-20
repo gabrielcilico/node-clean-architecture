@@ -1,4 +1,4 @@
-import { EmailValidator } from "./EmailValidator"
+import { EmailValidator } from "../EmailValidator"
 
 describe('email validation test', () => {
 

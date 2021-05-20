@@ -1,4 +1,4 @@
-import { CNPJValidator } from "./CNPJValidator"
+import { CNPJValidator } from "../CNPJValidator"
 
 function getValidator() {
   return new CNPJValidator()
