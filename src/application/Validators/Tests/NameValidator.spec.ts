@@ -1,4 +1,4 @@
-import { NameValidator } from "./NameValidator";
+import { NameValidator } from "../NameValidator";
 
 
 describe('name validation test', () => {
