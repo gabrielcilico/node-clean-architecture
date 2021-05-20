@@ -1,6 +1,3 @@
 {
-    "*.{ts,js}": [
-        "standard --fix",
-        "git add"
-    ]
+    "*.{ts,js}": []
 }
