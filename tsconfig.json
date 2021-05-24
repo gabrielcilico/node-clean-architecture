@@ -14,8 +14,6 @@
   ],
   "baseUrl": ".",
   "paths": {
-    "@validators/*": ["./src/application/Validators/*"],
-    "@errors/*": ["./src/application/Errors/*"],
-    "@modules/*": ["./src/modules/*"],
+    "@/*": ["*"]
   }
 }
